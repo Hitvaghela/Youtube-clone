@@ -1,4 +1,2 @@
-# chai aur backend series 
-
-
---This is backend project with javascript , express js 
+# Youtube-clone
+Project related to use of javascript as backend with jwt authentication , modeling , express.js work etc
