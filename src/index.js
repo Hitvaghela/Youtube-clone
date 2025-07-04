@@ -14,7 +14,7 @@ connectdb()
       throw err;
     });
     app.listen(process.env.PORT,()=>{
-        console.log(`Server is running on part ${process.env.PORT}`)
+        console.log(`Server is running on port ${process.env.PORT}`)
     })
 
   })
@@ -22,6 +22,9 @@ connectdb()
     console.log("MONGODB connection failed !! ", err);
   });
 
+
+
+  
 // (async ()=>{
 //     try {
 //         await mongoose.connect(`${process.env.DATABASE_URL}/${db_name}`);
